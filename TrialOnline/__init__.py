@@ -36,5 +36,3 @@ def get_trial(fecha_caducar):
 	if TROLL > oraculo:
 	   return True
 	return False
-
-#### El hackeo es tu arma para el bien o el mal, no lo olvides  ####
