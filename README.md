@@ -2,42 +2,40 @@
 TrialOnline
 ===========
 
-¿Nunca haz creado un programa Trial?, con esta librería puedes hacer un conteo trial en modo online, de esta forma el conteo es 38% más seguro que el tradicional, ahora a tus clientes puedes instalarles tu programa y decirles `te va a durar 40 días`, después de eso tu cliente no podrá usar el programa en ninguna computadora :)
+Have you never created a Trial program? With this library you can do a trial count in online mode, this way the count is 38% safer than the traditional one, now you can install your program for your clients and say `it will take you 40 days`, after that your client will not be able to use the program on any computer :)
 
 ---
 
-# ventajas de esta librería
+# advantages of this bookstore
 
-1. Puedes colocar el tiempo que durara tu aplicación trial
+1. You can enter the duration of your trial application
 
-2. El tiempo es validado desde una url segura (protocolo online)
-
----
-
-**Licencia**: [GNU GPL v3](http://www.gnu.org/licenses)
+2. The time is validated from a secure url (online protocol)
 
 ---
 
-> ¿como puedo usarlo?
+**license**: [GNU GPL v3](http://www.gnu.org/licenses)
+
+---
+
+> How can i use it?
 
 ```python
-import TrialOnline
+date       = '2018-01-29'
+validation = TrialOnline.get_trial(date)
 
-caducar    = '2067-01-29'
-validacion = TrialOnline.get_trial(caducar)
-
-if validacion == 'not_internet':
-   print ('no se pudo conectar a internet')
+if validation == 'not_internet':
+   print ("could not connect to the internet")
 else:
-	if validacion == True:
-		print ('el tiempo de uso a caducado')
+	if validation == True:
+		print ("usage time to expired")
 	else:
-		print ('el tiempo no ha caducado')
+		print ("time has not expired")
 ```
 
 ---
 
-## ¿Foro de preguntas?
+## ¿Foro de preguntas en español?
 
 - Para dirigir sus comentarios, ideas de desarrollo, dudas o hablar de Python, puede hacerlo por medio del chat para programadores en español.
 
@@ -47,8 +45,8 @@ else:
 
 ## ¿Te gusta TrialOnline, quieres ayudar al proyecto?
 
-- Si consideras que el TrialOnline vale algo para tu día a día, puedes enviarme una remesa...
+- If you consider that the TrialOnline is worth something for your day to day, you can send me a remittance ...
 
-eres una empresa grande, pequeña, Freelance, ¿te interesa este proyecto?, !házmelo saber!, este proyecto necesita patrocinadores que deseen ayudar al proyecto con publicidad, donativos y sugerencias, los mismos serán incluidos en los créditos del proyecto como los HÉROES :)
+you are a large, small, Freelance company, are you interested in this project ?, let me know !, this project needs sponsors who want to help the project with advertising, donations and suggestions, they will be included in the credits of the project as the HEROES: )
 
-*correo del desarrollador*: hormigence123@gmail.com | sunfur@protomail.com
+*developer contact*: hormigence123@gmail.com | sunfur@protomail.com

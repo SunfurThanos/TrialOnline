@@ -4,19 +4,19 @@ import TrialOnline
 
 #--------------------------------------------------------------------------------------------------
 
-caducar    = '2018-01-29'
-validacion = TrialOnline.get_trial(caducar)
+date       = '2018-01-29'
+validation = TrialOnline.get_trial(date)
 
 #--------------------------------------------------------------------------------------------------
 
-if validacion == 'not_internet':
-   print ('no se pudo conectar a internet')
+if validation == 'not_internet':
+   print ("could not connect to the internet")
 else:
-	if validacion == True:
-		print ('el tiempo de uso a caducado')
+	if validation == True:
+		print ("usage time to expired")
 	else:
-		print ('el tiempo no ha caducado')
+		print ("time has not expired")
 
 #--------------------------------------------------------------------------------------------------
 
-# Nota : tu aplicación debe estar ofuscada, complicada y compilada, para mayor seguridad de lo contrario el sistema podría ser hackeado por terceros.
+# Note: your application must be obfuscated, complicated and compiled, for greater security otherwise the system could be hacked by third parties.
