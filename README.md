@@ -35,18 +35,18 @@ else:
 
 ---
 
-## ¿Foro de preguntas en español?
-
-- Para dirigir sus comentarios, ideas de desarrollo, dudas o hablar de Python, puede hacerlo por medio del chat para programadores en español.
-
-*sala IRC*: #python-es | #python-es_OFFTOPIC
-
----
-
-## ¿Te gusta TrialOnline, quieres ayudar al proyecto?
+## Do you like TrialOnline, do you want to help the project?
 
 - If you consider that the TrialOnline is worth something for your day to day, you can send me a remittance ...
 
 you are a large, small, Freelance company, are you interested in this project ?, let me know !, this project needs sponsors who want to help the project with advertising, donations and suggestions, they will be included in the credits of the project as the HEROES: )
 
 *developer contact*: hormigence123@gmail.com | sunfur@protomail.com
+
+---
+
+## ¿Foro de preguntas en español?
+
+- Para dirigir sus comentarios, ideas de desarrollo, dudas o hablar de Python, puede hacerlo por medio del chat para programadores en español.
+
+*sala IRC*: #python-es | #python-es_OFFTOPIC
