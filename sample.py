@@ -10,13 +10,13 @@ validation = TrialOnline.get_trial(date)
 #--------------------------------------------------------------------------------------------------
 
 if validation == 'not_internet':
-   print ("could not connect to the internet")
+   print ("no se pudo conectar a internet")
 else:
 	if validation == True:
-		print ("usage time to expired")
+		print ("el tiempo de uso a caducado")
 	else:
-		print ("time has not expired")
+		print ("el tiempo no ha caducado")
 
 #--------------------------------------------------------------------------------------------------
 
-# Note: your application must be obfuscated, complicated and compiled, for greater security otherwise the system could be hacked by third parties.
+# Nota : tu aplicación debe estar ofuscada, complicada y compilada, para mayor seguridad de lo contrario el sistema podría ser hackeado por terceros.
