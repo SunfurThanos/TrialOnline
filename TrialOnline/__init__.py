@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 """
-	Author  : Sunfur Thanos
+	Author  : Andrade Echarry -> 'ALF'
 
 	Country : Venezuela
 
 	License : GNU GPL v3 <http://www.gnu.org/licenses/>
 
-	Copyright (C) 2014 Sunfur Thanos. All rights reserved.
+	Copyright (C) 2014 Andrade Echarry -> 'ALF'. All rights reserved.
 
 """
 
